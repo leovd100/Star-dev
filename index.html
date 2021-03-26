@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <title>Star Dev</title>
+</head>
+<body>
+    <header>
+        <h1>Star-Devs</h1>
+    </header>
+    
+    <main>
+        <section class="cards-main">
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Personagens</span>
+                    <h2 id="persons">Carregando...</h2>
+                </div>
+                <img src="img/darth.svg" alt="Imagem personagens">
+            </div>
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Naves Estelares</span>
+                    <h2 id="starships">Carregando...</h2>
+                </div>
+                <img src="img/starship.svg" alt="Naves estelares">
+            </div>
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Planetas</span>
+                    <h2 id="planets">Carregando...</h2>
+                </div>
+                <img src="img/planet.svg" alt="Planetas">
+            </div>
+        </section>
+        
+        <section class="phrases-container">
+            <button id="btn-phrases" onclick="loadPhase()">Ler uma frase</button>
+            <p id="phrase">Frase</p>
+        </section>
+    </main>
+    <script src="js/script.js" defer></script>
+</body>
+</html>
